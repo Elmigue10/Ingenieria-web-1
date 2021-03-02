@@ -163,9 +163,18 @@ body{
     background: var(--cyan);
 }
 
+header{
+  display: flex;
+}
+
 li{
   text-decoration: none;
   display: inline;
+}
+
+li:first-child{
+  color: #FFB16F;
+  font-family: "montserratblack";
 }
 
 button{
@@ -176,6 +185,7 @@ button{
     width: 72px;
     height: 22px;
     border-radius: 80%;
+    margin: 0 auto;
 }
 
 h1,p{
@@ -186,13 +196,7 @@ h1,p{
 }
 
 footer{
-    color: var(--yellow);
-}
-
-.nav-var{
-    color: var(--fuente);
-    font-family: "montserratmedium";
-    font-size: 9pt;
+  color: var(--yellow);
 }
 
 .container{
@@ -201,15 +205,48 @@ footer{
   background: var(--backgound);
   margin: 0 auto;
 }
+.click-promo{
+  color: #FFFFFF;
+  font-family: "fredoka_oneregular";
+  font-size: 14px;
+  width: 121px;
+  height: 98px;
+  background-image: url(../img/click-promo.png);
+  text-align: center;
+}
+
+.nav-var{
+  color: var(--fuente);
+  font-family: "montserratmedium";
+  font-size: 9pt;
+  width: 372px;
+}
+
+.container-logo{
+  color: #FF7F2C;
+  font-family: "fredoka_oneregular";
+  font-size: 18px;
+  width: 136px;
+  height: 128px;
+  text-align: center;
+  background-image: url(../img/your-logo.png);
+}
+
+.logo-text{
+  color: #FFFFFF;
+  font-family: "fredoka_oneregular";
+  font-size: 30px;
+}
+
 .container-content{
   width: 291px;
   height: 235px;
   margin: 0 auto;
-  text-align: center;
+  display: grid;
 }
 .content-title{
   color: var(--fuente);
-  font-family: fredoka_oneregular;
+  font-family: "fredoka_oneregular";
   font-size: 73px;
 }
 
@@ -230,4 +267,8 @@ footer{
   font-size: 10px;
   text-align: justify;
   margin-left: auto;
+}
+
+.container-img{
+  padding-bottom: 300px;
 }
