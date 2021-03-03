@@ -184,19 +184,25 @@ button{
     color: #FFFFFF;
     width: 72px;
     height: 22px;
-    border-radius: 80%;
-    margin: 0 auto;
+    border-radius: 15px;
+    border-color: #C65D5D;
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
-h1,p{
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
+h1,p,span{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  outline:0px;
 }
 
 footer{
   color: var(--yellow);
+  font-size: 20px;
+  position: relative;
+  top: -350px;
+  left: 297px;
 }
 
 .container{
@@ -242,7 +248,10 @@ footer{
   width: 291px;
   height: 235px;
   margin: 0 auto;
-  display: grid;
+  margin-left: 224px;
+  position: relative;
+  top: 7px;
+  z-index: 10;
 }
 .content-title{
   color: var(--fuente);
@@ -253,13 +262,19 @@ footer{
 .premium{
   color: var(--yellow);
   font-size:  20px;
+  position: relative;
+  top: -70px;
+  left: 58px;
 }
 .food{
   color: var(--salmon);
   font-size: 47px;
+  position: relative;
+  top:-50px;
+  left: 42px;
 }
 
-.container-text p{
+.container-text{
   width: 241px;
   height: 53px;
   color: var(--text);
@@ -267,8 +282,17 @@ footer{
   font-size: 10px;
   text-align: justify;
   margin-left: auto;
+  position: relative;
+  bottom: 55px;
+}
+
+.container-text button{
+  margin: 8% 0 0 35%;
 }
 
 .container-img{
-  padding-bottom: 300px;
+  position: relative;
+  z-index: 8;
+  top: -245px;
+  left: -57px;
 }
