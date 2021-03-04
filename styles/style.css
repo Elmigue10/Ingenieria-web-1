@@ -201,8 +201,9 @@ footer{
   color: var(--yellow);
   font-size: 20px;
   position: relative;
-  top: -350px;
-  left: 297px;
+  bottom: 380px;
+  left: 304px;
+  word-spacing: -4px;
 }
 
 .container{
@@ -210,6 +211,7 @@ footer{
   height: 404px;
   background: var(--backgound);
   margin: 0 auto;
+  overflow: hidden;
 }
 .click-promo{
   color: #FFFFFF;
@@ -290,9 +292,52 @@ footer{
   margin: 8% 0 0 35%;
 }
 
-.container-img{
+.bone-img{
+  position: relative;
+  bottom: 157px;
+  left: 299px;
+}
+
+.food-img{
   position: relative;
   z-index: 8;
-  top: -245px;
+  bottom: 245px;
   left: -57px;
+}
+.croceta-doble-1{
+  position: relative;
+  bottom: 593px;
+  left: 65px;
+  z-index: 11;
+}
+.croceta-doble-2{
+  position: relative;
+  bottom: 555px;
+  left: 199px;
+  z-index:11;
+}
+.croceta-sencilla-1{
+  height: 16px;
+  width: 16px;
+  position: relative;
+  bottom: 591px;
+  left: -75px;
+}
+.croceta-sencilla-2{
+  position: relative;
+  bottom: 600px;
+  right: 70px;
+}
+.croceta-sencilla-3{
+  position: relative;
+  bottom: 600px;
+  right: 20px;
+}
+.croceta-sencilla-4{
+  width: 29px;
+  height: 30px;
+  position: relative;
+  bottom: 530px;
+  right: -297px;
+  z-index: 11;
 }
