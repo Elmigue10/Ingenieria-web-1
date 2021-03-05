@@ -172,9 +172,10 @@ li{
   display: inline;
 }
 
-li:first-child{
-  color: #FFB16F;
-  font-family: "montserratblack";
+a{
+  text-decoration: none;
+  color: var(--fuente);
+  margin: 13px;
 }
 
 button{
@@ -188,6 +189,9 @@ button{
     border-color: #C65D5D;
     text-transform: uppercase;
     padding-bottom: 5px;
+    -webkit-box-shadow: inset 0px -6px 0px -2px rgba(239,108,106,1);
+    -moz-box-shadow: inset 0px -6px 0px -2px rgba(239,108,106,1);
+    box-shadow: inset 0px -6px 0px -2px rgba(239,108,106,1);
 }
 
 h1,p,span{
@@ -209,31 +213,44 @@ footer{
 .container{
   width: 629px;
   height: 404px;
-  background: var(--backgound);
+  background-image: url(../img/fondo-home.png);
   margin: 0 auto;
   overflow: hidden;
+  -webkit-box-shadow: 0px 21px 13px -3px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 21px 13px -3px rgba(0,0,0,0.41);
+  box-shadow: 0px 21px 13px -3px rgba(0,0,0,0.41);
 }
+
 .click-promo{
   color: #FFFFFF;
   font-family: "fredoka_oneregular";
-  font-size: 14px;
+  font-size: 13px;
   width: 121px;
   height: 98px;
   background-image: url(../img/click-promo.png);
   text-align: center;
 }
 
-.nav-var{
-  color: var(--fuente);
-  font-family: "montserratmedium";
-  font-size: 9pt;
-  width: 372px;
+.click-promo>p{
+ margin-top: 8px;
+ margin-right: 47px;
 }
 
-.container-logo{
-  color: #FF7F2C;
-  font-family: "fredoka_oneregular";
-  font-size: 18px;
+.nav-var{
+  font-family: "montserratmedium";
+  font-size: 9px;
+  width: 372px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+#home{
+  font-family: "montserratblack";
+  color: #FFB16F;
+  margin-left: 10px;
+}
+
+.container-logo{ 
   width: 136px;
   height: 128px;
   text-align: center;
@@ -241,6 +258,14 @@ footer{
 }
 
 .logo-text{
+  color: #FF7F2C;
+  font-family: "fredoka_oneregular";
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#logo{
   color: #FFFFFF;
   font-family: "fredoka_oneregular";
   font-size: 30px;
