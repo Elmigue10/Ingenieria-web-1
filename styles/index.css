@@ -106,6 +106,8 @@
   .icon-bone:before {
     content: "\e900";
     color: #FFFFFF;
+    font-size: 17px;
+    position: relative;
   }
   .icon-facebook .path1:before {
     content: "\e901";
@@ -269,6 +271,8 @@ footer{
   color: #FFFFFF;
   font-family: "fredoka_oneregular";
   font-size: 30px;
+  position: relative;
+  bottom: 10px;
 }
 
 .container-content{

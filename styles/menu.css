@@ -252,7 +252,7 @@ footer{
 .container{
     width: 659px;
     height: 423px;
-    background-image: url(../img/fondo-menu.png);
+    background-image: url(../img/menu/fondo-menu.png);
     margin: 0 auto;
     overflow:hidden;
     -webkit-box-shadow: 0px 21px 13px -3px rgba(0,0,0,0.41);
@@ -281,22 +281,22 @@ footer{
     width: 146px;
     height: 118px;
     text-align: center;
-    background-image: url(../img/your-logo-menu.png);
+    background-image: url(../img/menu/your-logo-menu.png);
     z-index: 11;
   }
   
   .logo-text{
     color: #FFFFFF;
     font-family: "montserratmedium";
-    font-size: 21px;
-    margin-top: 20px;
-    margin-right: 20px;
+    font-size: 19px;
+    margin-top: 23px;
+    margin-right: 35px;
   }
   
   #logo{
     color: #FFFFFF;
     font-family: "montserratblack";
-    font-size: 28px;
+    font-size: 25px;
   }
   .container-content{
     width: 255px;
@@ -311,16 +311,16 @@ footer{
   .content-title{
     color: var(--fuente);
     font-family: "montserratblack";
-    font-size: 63px;
+    font-size: 59px;
   }
   
   .food{
     color: #FFFC8C;
     font-family: "cookieregular";
-    font-size: 76px;
+    font-size: 71px;
     position: relative;
     top:-45px;
-    left: 85px;
+    left: 79px;
   }
   
   .container-text{
@@ -340,6 +340,8 @@ footer{
     height: 40px;
     font-family: "fredoka_oneregular";
     color:#FFAFB6;
+    font-size: 15px;
+    text-transform: uppercase;
     background: no-repeat;
     border: none;
     position: relative;
@@ -391,7 +393,7 @@ footer{
   font-family: "fredoka_oneregular";
   width: 107px;
   height: 90px;
-  background-image: url(../img/click-promo-menu.png);
+  background-image: url(../img/menu/click-promo-menu.png);
   text-align: center;
   position: relative;
   bottom: 398px;
@@ -399,9 +401,9 @@ footer{
 }
   
 .click-promo>p{
-  font-size: 15px;
+  font-size: 14px;
   position: relative;
-  top:10px;
+  top:13px;
   right: 13px;
   padding: 0px;
   margin: 0px;
@@ -409,7 +411,7 @@ footer{
 
 #descuento{
   color: #FFED7D;
-  font-size: 36px;
+  font-size: 33px;
   position: relative;
   top: 5px;
   right: 5px;
