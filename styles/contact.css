@@ -204,7 +204,7 @@ button{
 
 .container{
   background: var(--container);
-  width: 600px;
+  width: 650px;
   height: 366px;
   margin: 0 auto;
 }
@@ -225,7 +225,7 @@ button{
   font-size: 15px;
   position: relative;
   margin-top: 6px;
-  left: 336px;
+  left: 395px;
   word-spacing: -5px;
 }
 
@@ -235,13 +235,13 @@ button{
   font-size: 10px;
   position: relative;
   margin-top: 32px;
-  left: 259px;
+  left: 320px;
 }
 
 .container-content{
   width: 191px;
   height: 159px;
-  margin-left: 345px;
+  margin-left: 385px;
   position: relative;
 }
 
@@ -288,18 +288,12 @@ button{
   right: 20px;
 }
 
-.content-form{
-  position: relative;
-  bottom: 20px;
-  margin-left: 48px;
-}
-
 .container-img{
   width: 292px;
   height: 273px;
   position: relative;
-  bottom: 252px;
-  right: 318px;
+  bottom: 255px;
+  right: 370px;
 }
 
 #semi{
@@ -314,12 +308,12 @@ button{
 #circulos-azules{
   position: relative;
   bottom: 230px;
-  left: 230px;
+  left: 225px;
 }
 #lineas-1{
   position: relative;
-  bottom: 230px;
-  left: 230px;
+  bottom: 225px;
+  left: 245px;
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
@@ -328,36 +322,37 @@ button{
 #x-blanca-1{
   position: relative;
   bottom: 260px;
-  left: 230px;
+  left: 275px;
 }
 #circulos-naranjas{
   position: relative;
   bottom: 210px;
-  left: 345px;
+  left: 395px;
 }
 #x-azul{
   position: relative;
   bottom: 145px;
-  left: 60px;
+  left: 63px;
 }
 #x-naranja{
   position: relative;
-  bottom: 90px;
+  bottom: 100px;
   right: 250px;
 }
 #x-blanca-2{
   position: relative;
   bottom: 85px;
-  left: 275px;
+  left: 325px;
 }
 #lineas-2{
   position: relative;
   top: 40px;
+  left: 10px;
 }
 #semi-2{
   position: relative;
   top: 50px;
-  left: 155px;
+  left: 205px;
   -moz-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
