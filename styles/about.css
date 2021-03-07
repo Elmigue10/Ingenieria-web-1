@@ -250,7 +250,7 @@ footer{
     margin-left: 20px;
 }
 
-#seo-vav-var{
+#seo-nav-var{
     font-family:"sinkin_sans700_bold";
 }
 
@@ -373,6 +373,7 @@ footer{
   position: relative;
   bottom: 250px;
   right: 18px;
+  word-spacing: -4px;
 }
 
 .url{
@@ -383,11 +384,11 @@ footer{
 
 #footer-circulos{
   position: relative;
-  bottom: 297px;
+  bottom: 306px;
   left: 230px;
 }
 #footer-x{
   position: relative;
-  bottom: 296px;
-  left: 567px;
+  bottom: 305px;
+  left: 562px;
 }
