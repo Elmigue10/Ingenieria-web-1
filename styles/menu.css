@@ -242,11 +242,6 @@ li{
 a{
   text-decoration: none;
   color: var(--fuente);
-  margin: 13px;
-}
-
-footer{
-  display: inline;
 }
 
 .container{
@@ -265,7 +260,11 @@ footer{
     font-size: 10px;
     margin-top: 12px;
     margin-left: 105px;
-  }
+}
+
+.nav-var a{
+  margin: 13px;
+}
   
   #home{
     font-family: "montserratblack";
@@ -422,6 +421,5 @@ footer{
   bottom: 460px;
   left: 400px;
   font-size: 20px;
-  word-spacing: -4px;
 }
   

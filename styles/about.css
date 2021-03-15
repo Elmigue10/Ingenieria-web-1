@@ -190,8 +190,6 @@ a{
     text-decoration: none;
     color: var(--fuente);
     font-family: "sinkin_sans400_regular";
-    font-size: 6px;
-    margin: 11px;
 }
 
 input{
@@ -260,6 +258,11 @@ footer{
   right: 20px;
 }
 
+.nav-var a{
+  font-size: 6px;
+  margin: 11px;
+}
+
 .header-circulos{
   position: relative;
   left: 50px;
@@ -321,6 +324,7 @@ footer{
   position: relative;
   bottom: 20px;
   margin-left: 48px;
+  z-index: 12;
 }
 
 .container-img{
@@ -376,9 +380,14 @@ footer{
   word-spacing: -4px;
 }
 
+#instagram{
+  position: relative;
+  bottom: 1.1px;
+}
+
 .url{
   position: relative;
-  bottom: 282px;
+  bottom: 288px;
   left: 95px;
 }
 

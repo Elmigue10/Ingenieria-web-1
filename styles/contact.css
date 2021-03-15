@@ -236,6 +236,7 @@ button{
   position: relative;
   margin-top: 32px;
   left: 320px;
+  text-decoration: none;
 }
 
 .container-content{

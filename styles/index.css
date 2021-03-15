@@ -210,6 +210,7 @@ footer{
   bottom: 380px;
   left: 304px;
   word-spacing: -4px;
+  z-index: 12;
 }
 
 .container{
@@ -321,12 +322,15 @@ footer{
   margin: 8% 0 0 35%;
 }
 
+.redes a{
+  margin: 0px;
+}
+
 .bone-img{
   position: relative;
   bottom: 157px;
   left: 299px;
 }
-
 .food-img{
   position: relative;
   z-index: 8;
