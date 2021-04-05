@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <a href="../index.html">Inicio</a>
+    <div class="container">
+        <h1>Buscadores</h1>
+        <input type="radio" name="buscadores" id="google" value="https://www.google.com/">
+        <label for="buscadores">Google</label>
+        <input type="radio" name="buscadores" id="yahoo" value="https://espanol.yahoo.com/?p=us">
+        <label for="buscadores">Yahoo</label>
+        <input type="radio" name="buscadores" id="bing" value="https://www.bing.com/">
+        <label for="buscadores">Bing</label>
+        <input type="radio" name="buscadores" id="ask" value="https://www.ask.com/">
+        <label for="buscadores">Ask</label>
+
+        <h1 id="respuesta"></h1>
+
+        <button onclick="redirect()">Ir</button>
+    </div>
+
+
+    <script src="../js/ejercicio4.js"></script>
+
+
+    <style>
+        input, label{
+            display: block;
+        }
+    </style>
+</body>
+</html>

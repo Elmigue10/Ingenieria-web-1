@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <a href="../index.html">Inicio</a>
+    <div class="container">
+        <form action="#" id="form">
+
+            <label for="name">Name:
+                <input type="text" id="name" name="name">
+            </label>
+            <label id="nameMsg"></label>
+                
+            <label for="apellido">Apellido:
+                <input type="text" id="apellido" name="apellido">
+            </label>
+            <label id="apellidoMsg"></label>
+                
+            <label for="direccion">Direccion:
+                <input type="text" id="direccion" name="direccion">
+            </label>
+            <label id="direccionMsg"></label>
+                
+            <label for="telefono">Telefono:
+                <input type="text" id="telefono" name="telefono">
+            </label>
+            <label id="telefonoMsg"></label>
+                
+            <label for="email">Email:
+                <input type="email" id="email" name="email">
+            </label>
+            <label id="emailMsg"></label>
+                
+            
+            <button onClick="validar()">Validar</button>
+        </form>
+    </div>
+
+    <script src="../js/ejercicio1.js"></script>
+
+    <style>
+        label,input{
+            display: block;
+        }
+    </style>
+</body>  
+</html>
