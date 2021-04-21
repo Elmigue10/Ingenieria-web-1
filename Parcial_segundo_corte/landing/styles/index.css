@@ -4,11 +4,11 @@
 /* Fuentes de iconos */
 @font-face {
     font-family: 'icomoon';
-    src:  url('/fonts/icomoon.eot?k88b4i');
-    src:  url('/fonts/icomoon.eot?k88b4i#iefix') format('embedded-opentype'),
-      url('/fonts/icomoon.ttf?k88b4i') format('truetype'),
-      url('/fonts/icomoon.woff?k88b4i') format('woff'),
-      url('/fonts/icomoon.svg?k88b4i#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?k88b4i');
+    src:  url('../fonts/icomoon.eot?k88b4i#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?k88b4i') format('truetype'),
+      url('../fonts/icomoon.woff?k88b4i') format('woff'),
+      url('../fonts/icomoon.svg?k88b4i#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
