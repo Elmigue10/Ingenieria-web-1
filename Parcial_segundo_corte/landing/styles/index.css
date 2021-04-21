@@ -67,6 +67,7 @@
   
 
 body{
+    background:#181F2B;
     padding: 0;
     margin: 0;
 }
@@ -92,7 +93,7 @@ body{
     width: 70%;
     font-size: 3.5vw;
     margin-top: 4vw;
-    margin-left: 17vw;
+    margin-left: 10vw;
     font-family: "Raleway";
     font-weight: 100;
 }
@@ -173,6 +174,7 @@ body{
     position: relative;
     bottom: 10vw;
     border-radius: 10vw;
+    border: none;
 }
 
 .servicios{
@@ -263,7 +265,7 @@ body{
     z-index: 10;
     background:#181F2B;
     width: 100%;
-    height: 150vw;
+    height: 120vw;
     bottom: 85vw;
     color: #FFFFFF;
     display: grid;
@@ -305,4 +307,144 @@ body{
     position: relative;
     left: 14.8vw;
     bottom: 5vw;
+}
+
+footer{
+    background: #0C1524;
+    height: 250vw;
+    color: #FFFFFF;
+}
+.form{
+    background: #1B2330;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3vw;
+    position: relative;
+    bottom: 48vw;
+    padding: 5vw;
+}
+.form-title{
+    font-family: "Raleway";
+    text-align: center;
+    justify-content: center;
+    font-size: 5vw;
+    font-weight: 700;
+    margin-top: 6vw;
+}
+.form-text{
+    font-family: 'Open Sans';
+    font-size: 3.6vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7vw;
+    margin-left: 5%; 
+    width: 90%;
+}
+.form input{
+    font-family: "Raleway";
+    font-size: 3vw;
+    font-weight: 700;
+    width: 70vw;
+    height: 11vw;
+    margin: 7vw 0 5vw 2vw;
+    padding-left: 8%;
+    border-radius: 10vw;
+    border: none;
+}
+.form button{
+    background: linear-gradient(to right, #51C8D5,#3CADCF);
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-size: 3.8vw;
+    font-weight: 700;
+    width: 76.7vw;
+    height: 11vw;
+    margin: 0 0 5vw 2vw;
+    text-align: center;
+    border-radius: 10vw;
+    border: none;
+}
+
+.footer-img{
+    width: 45%;
+}
+.footer-img img{
+    width: 100%;
+    margin-top: 5.5vw;
+    margin-left: 10vw;
+    position: relative;
+    bottom: 30vw;
+}
+
+.footer-cards{
+    position: relative;
+    bottom: 20vw;
+}
+
+.contact{
+    font-family: 'Open Sans';
+    font-size: 4.5vw;
+    font-weight: 400;
+    width: 100%;
+}
+.ubication{
+    display: flex;
+}
+.contact img{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 6vw;
+    position: relative;
+    top: 1.2vw;
+}
+.ubication img{
+    width: 5vw;
+    height: 6vw;
+}
+.contact span{
+    width: 80%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+.contact-span:last-child{
+    position: relative;
+    top: 5vw;
+}
+#mail-img{
+    top: 5vw;
+}
+
+.list > ul{
+    color: white;
+    font-family: "Raleway";
+    font-weight: 100;
+    font-size: 4.5vw;
+    text-decoration: none;
+    list-style: none;
+    padding-inline-start: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.list{
+    margin-left: 5vw;
+}
+.list li{
+    margin-top: 4vw;
+}
+.info{
+    margin-top: 15vw;
+    margin-bottom: 11vw;
+}
+
+.redes{
+    margin-top: 17vw;
+    text-align: center;
+    margin-right: 5vw;
+}
+.redes-item{
+    font-size: 5vw;
+    display: inline;
+    margin-left: 5vw;
 }
